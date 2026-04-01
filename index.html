@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noovatrade - Telegram Channel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #1a1a1a;
+      font-family: 'Cairo', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* HEADER */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #1f1f1f;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 100;
+      border-bottom: 1px solid #2a2a2a;
+    }
+
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      direction: ltr;
+    }
+
+    .tg-icon {
+      width: 36px;
+      height: 36px;
+      background: #2AABEE;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tg-icon svg {
+      width: 20px;
+      height: 20px;
+      fill: white;
+    }
+
+    .header-logo span {
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+      direction: ltr;
+    }
+
+    .download-btn {
+      background: #2AABEE;
+      color: white;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: 'Cairo', sans-serif;
+    }
+
+    /* MAIN CONTENT */
+    .main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 20px 40px;
+    }
+
+    /* CARD */
+    .card {
+      background: #2a2a2a;
+      border-radius: 16px;
+      padding: 32px 28px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      direction: rtl;
+    }
+
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 16px;
+      display: block;
+      border: 3px solid #2AABEE;
+    }
+
+    .channel-name {
+      color: white;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .member-count {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #3a3a3a;
+      margin: 16px 0;
+    }
+
+    .description {
+      color: #ccc;
+      font-size: 14px;
+      line-height: 1.8;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .description .highlight {
+      color: white;
+      font-weight: 700;
+      font-size: 15px;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .join-btn {
+      display: block;
+      width: 100%;
+      background: #2AABEE;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: 'Cairo', sans-serif;
+      margin-top: 20px;
+      transition: background 0.2s;
+    }
+
+    .join-btn:hover {
+      background: #1a9bd4;
+    }
+
+    .redirect-notice {
+      color: #666;
+      font-size: 12px;
+      margin-top: 16px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-logo">
+      <div class="tg-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.17 13.5l-2.95-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.537-.194 1.006.131.973.957z"/>
+        </svg>
+      </div>
+      <span>Telegram</span>
+    </div>
+    <a href="https://telegram.org/dl" class="download-btn">DOWNLOAD</a>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="card">
+      <img
+        class="profile-photo"
+        src="https://res.cloudinary.com/dabkrojac/image/upload/v1774948421/hf_20260331_081856_4cc03512-8021-4975-8407-66e44598a4ba_kerlrv.png"
+        alt="Noovatrade"
+      />
+
+      <h1 class="channel-name">Noovatrade 🇲🇦</h1>
+      <p class="member-count">9,266 members</p>
+
+      <hr class="divider">
+
+      <div class="description">
+        <span class="highlight">قوة التداول الآلي 🔥</span>
+        مرحبا بيكم معنا في عالم التداول الذكي والأوتوماتيكي! معانا التداول سهل، آمن، وكيخدم ليك بلا تعب. استعد تحقق أرباحك بكل سهولة وبثقة.
+      </div>
+
+      <hr class="divider">
+
+      <a href="https://t.me/noovatrade" class="join-btn">إنضم إلى القناة 🚀</a>
+
+
+    </div>
+  </main>
+
+
+
+</body>
+</html>
