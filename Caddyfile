@@ -1,4 +1,4 @@
 :{$PORT} {
-    root * /site
+    root * /app
     file_server
 }
